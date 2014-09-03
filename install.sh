@@ -10,3 +10,11 @@ if [ ! -L $HOME/.vimrc ]; then
 	cd $HOME
 	ln -s .vim/vimrc .vimrc
 fi
+
+# 足らないディレクトリを作成
+if [ -d $HOME/.vim/backup ]; then
+	mkdir -p $HOME/.vim/backup
+fi
+if [ -d $HOME/.vim/swp ]; then
+	mkdir -p $HOME/.vim/swp
+fi
