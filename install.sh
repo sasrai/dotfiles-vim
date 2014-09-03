@@ -18,6 +18,9 @@ fi
 if [ ! -e $HOME/.vim/swp ]; then
 	mkdir -p $HOME/.vim/swp
 fi
+if [ ! -e $HOME/.vim/bundle ]; then
+	mkdir -p $HOME/.vim/bundle
+fi
 
 # NeoBundleをインストール
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh

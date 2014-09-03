@@ -6,3 +6,4 @@ match ZenkakuSpace /　/
 set hlsearch
 set title
 set lcs=tab:>-
+colorscheme hybrid 

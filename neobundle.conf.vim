@@ -17,6 +17,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
 
+runtime! bundle.conf.d/*.vim
+
 " Required:
 call neobundle#end()
 
