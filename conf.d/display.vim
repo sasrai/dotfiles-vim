@@ -7,3 +7,6 @@ set hlsearch
 set title
 set lcs=tab:>-
 colorscheme hybrid 
+
+" 背景色を消し去る
+autocmd VimEnter,Colorscheme * :hi Normal ctermbg=none
