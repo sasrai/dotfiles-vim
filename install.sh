@@ -12,9 +12,12 @@ if [ ! -L $HOME/.vimrc ]; then
 fi
 
 # 足らないディレクトリを作成
-if [ -d $HOME/.vim/backup ]; then
+if [ ! -e $HOME/.vim/backup ]; then
 	mkdir -p $HOME/.vim/backup
 fi
-if [ -d $HOME/.vim/swp ]; then
+if [ ! -e $HOME/.vim/swp ]; then
 	mkdir -p $HOME/.vim/swp
 fi
+
+# NeoBundleをインストール
+curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
