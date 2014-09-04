@@ -25,3 +25,6 @@ NeoBundle 'tomtom/tcomment_vim'
 
 " ログファイルの色付け
 NeoBundle 'vim-scripts/AnsiEsc.vim'
+
+" Emmet対応
+NeoBundle 'mattn/emmet-vim'
