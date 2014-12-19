@@ -1,12 +1,15 @@
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
 
 " My Additional Bundles
+
+" vim Git support
+NeoBundle 'tpope/vim-fugitive'
 
 " マルチカーソル
 NeoBundle 'terryma/vim-multiple-cursors'
