@@ -1,2 +1,2 @@
 " マウス操作
-set mouse=a
+"set mouse=a
