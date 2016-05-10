@@ -1,6 +1,4 @@
-NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 
 " You can specify revision/branch/tag.

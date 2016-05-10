@@ -9,3 +9,4 @@ set shiftwidth=2
 set cindent
 set comments=sl:/*,mb:*,elx:*/
 set wildmenu
+set modeline
